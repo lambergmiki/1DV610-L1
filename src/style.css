@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply dark:bg-gray-800 text-white;
+  }
+
+  h1 {
+    @apply text-9xl;
+  }
+}
+
+.user_input {
+    @apply flex flex-col text-center text-[120px];
+}
