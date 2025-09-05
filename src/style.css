@@ -12,6 +12,10 @@
   h1 {
     @apply text-9xl;
   }
+
+  h2 {
+    @apply text-6xl
+  }
 }
 
 .user_input {
